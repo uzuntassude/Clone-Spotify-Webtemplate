@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.solsutun {
+    display: block;
+    width: 20%;
+    min-height: 120vh;
+    height: auto;
+    padding: 20px;
+    float: left;
+
+}
+
+.ara {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(35, 34, 34);
+    border-radius: 20px;
+
+}
+
+.araic {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    color: white;
+
+}
+
+.kitaplik {
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(35, 34, 34);
+    border-radius: 20px;
+    min-height: 100vh;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+.sagsutun {
+    width: 75%;
+    min-height: 120vh;
+    height: auto;
+    background-color: rgb(35, 34, 34);
+    float: left;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.banner {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.banner img {
+    width: 1000px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+.daybar {
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.daybar h4 {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+
+}
+
+.daymusic {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.music {
+    width: 350px;
+    height: 100px;
+    background-color: rgb(54, 53, 53);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.userlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userselect h4 {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+
+
+}
+
+.userselect {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.usermusic {
+    width: 180px;
+    height: 250px;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.mostlist {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.mostlist h4 {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+
+}
+
+.kitaplikfixed {
+    width: 247px;
+    height: 70px;
+    background-color: gray;
+
+
+}
+
+.like {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(59, 58, 58);
+    margin-top: 20px;
+
+}
+
+.musicrest img {
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+}
+
+.musicname h3 {
+    color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+.userresim img {
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.username h4 {
+    font-size: 17px;
+
+}
+
+.username p {
+    font-size: 12px;
+    margin-top: 5px;
+
+
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    float: left;
+    background-color: rgb(71, 68, 68);
+    margin-top: 30px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+.footname {
+    display: flex;
+    width: 30%;
+    height: 70px;
+    align-items: center;
+}
+
+.footname img {
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footname h5 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
+
+.footplay {
+    display: block;
+    width: 70%;
+    height: 70px;
+    justify-content: center;
+
+}
+
+input[type="range"] {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.awosome {
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.awosome i {
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.like {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+
+}
+
+.likeimg img {
+    width: 70px;
+    height: 70px;
+    border-radius: 7px;
+    margin: 0 5px;
+    margin-top: 3px;
+}
+
+.liketext h4 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.liketext p {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: rgb(160, 149, 133);
+
+}
+
+::-webkit-scrollbar{
+width: 0.5em;
+
+}
+
+::-webkit-scrollbar-track{
+background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: transparent;
+
+}
